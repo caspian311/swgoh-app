@@ -1,0 +1,72 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (4.2.9)
+      activesupport (= 4.2.9)
+      builder (~> 3.1)
+    activerecord (4.2.9)
+      activemodel (= 4.2.9)
+      activesupport (= 4.2.9)
+      arel (~> 6.0)
+    activesupport (4.2.9)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    arel (6.0.4)
+    awesome_print (1.8.0)
+    backports (3.15.0)
+    builder (3.2.3)
+    byebug (11.0.1)
+    i18n (0.8.6)
+    json (2.3.0)
+    minitest (5.11.3)
+    multi_json (1.14.1)
+    mustermann (1.0.3)
+    mysql2 (0.4.10)
+    nio4r (2.5.2)
+    puma (4.3.1)
+      nio4r (~> 2.0)
+    rack (2.0.8)
+    rack-protection (2.0.7)
+      rack
+    rake (12.3.1)
+    sinatra (2.0.7)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.7)
+      tilt (~> 2.0)
+    sinatra-activerecord (2.0.13)
+      activerecord (>= 3.2)
+      sinatra (>= 1.0)
+    sinatra-contrib (2.0.7)
+      backports (>= 2.8.2)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.0.7)
+      sinatra (= 2.0.7)
+      tilt (~> 2.0)
+    sinatra-cross_origin (0.4.0)
+    thread_safe (0.3.6)
+    tilt (2.0.10)
+    tzinfo (1.2.5)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print (~> 1.8.0)
+  byebug
+  json (~> 2.3.0)
+  mysql2 (~> 0.4)
+  puma (~> 4.3.1)
+  rack (~> 2.0.8)
+  rake (~> 12.3.1)
+  sinatra (~> 2.0.7)
+  sinatra-activerecord (~> 2.0.13)
+  sinatra-contrib (~> 2.0.7)
+  sinatra-cross_origin (~> 0.4.0)
+
+BUNDLED WITH
+   2.1.2
