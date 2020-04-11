@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'awesome_print', '~>1.8.0'
+gem 'bigdecimal', '1.4.2'
 gem 'json', '~>2.3.0'
 gem 'mysql2', '~>0.4'
 gem 'puma', '~>4.3.1'
